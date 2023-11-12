@@ -31,7 +31,7 @@ def main():
     print("Welcome to the Password Generator and Strength Checker!")
 
     while True:
-        choice = input("Enter '1' to generate a random password, '2' to input your own password, or '3' to exit: ")
+        choice = input("\nEnter '1' to generate a random password,\nEnter '2' to input your own password,\nEnter '3' to exit: \n")
 
         if choice == '1':
             password = generate_random_password()
